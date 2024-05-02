@@ -1,0 +1,9 @@
+mixin stars(value,customerReviews)
+    .stars&attributes(attributes)(style=`--ratingPercent: ${Math.floor(20 * value)}%;`)
+        .stars__body(itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating")
+            span.onlyScreenReader(itemprop="ratingValue")!=value
+            span.onlyScreenReader(itemprop="reviewCount")!=customerReviews
+
+
+// example usage
+//- +stars(4.5, 100)
