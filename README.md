@@ -5,7 +5,7 @@ Do you want to display a star rating without any hassle? This is a straightforwa
 ## Description
 
 This plugin is designed to display a star rating that can be animated. It is lightweight and easy to integrate.
-[Example](https://nikolasgrizli.github.io/simpleAnimatedStars/)
+[Example](https://nikolasgrizli.github.io/stars/)
 
 ## Advantages
 
